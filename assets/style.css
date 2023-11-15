@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1, section p{
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+    color: #CF2E75;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.clearfix::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.container{
+    float: left;
+    margin-right: 2em; 
+    background-color: black;
+}
+
+.portrait{
+    float: left;
+}
+
+.info{
+    float: right;
+}
+
+.name, .role{
+    color: white;
+}
+.email{
+    color: #80B8EC;
+}
