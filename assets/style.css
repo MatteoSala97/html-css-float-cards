@@ -15,28 +15,39 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 main{
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .card{
-    background-color: black;
-    border: 1em solid white;
-    width: calc(100% /3);
-    float: left;
-    
+    background-color: #0F0E17;
+    width: calc(100%/3);
+    float: left;  
+    box-shadow: 1px 1px 1px 1px lightgrey;
 }
+
 img{
     float: left;
     width: 100px;
     height: 100px;
+    
 }
-.name, .role{
+.name{
+    color: white;
+    font-weight: bolder;
+}
+
+.role{
     color: white;
 }
 .email{
-    color: #80B8EC;
+    color: #8EC6EF;
 }
 
 .clearfix::after{
