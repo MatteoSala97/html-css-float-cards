@@ -27,11 +27,23 @@ main{
 
 .card{
     background-color: #0F0E17;
-    width: calc(100%/3);
+    width: calc(33.33% - 20px);
     float: left;  
-    box-shadow: 1px 1px 1px 1px lightgrey;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
 }
-
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: calc(100% - 20px); 
+    padding: 10px; 
+}
 img{
     float: left;
     width: 100px;
@@ -55,40 +67,3 @@ img{
 	display: table;
 	clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
