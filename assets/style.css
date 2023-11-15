@@ -21,12 +21,17 @@ main{
 }
 
 .card{
-    float: left;
     background-color: black;
     border: 1em solid white;
     width: calc(100% /3);
+    float: left;
+    
 }
-
+img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
 .name, .role{
     color: white;
 }
@@ -40,59 +45,6 @@ main{
 	clear: both;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .nero{
-    width: calc(100%/3);
-    background-color: black;
-    height: 200px;
-    border: 1em solid white;
-    float: left;
-}
-
-
-img{
-    width: calc(100%/3)
-}
-
-.testo{
-    color: red;
-    float: right;
-} */
 
 
 
