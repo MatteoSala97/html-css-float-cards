@@ -1,18 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Young+Serif&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.clearfix::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+html{
+    font-family: font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
 h1, section p{
     text-align: center;
     margin-top: 1em;
+    line-height: 150%;
 }
 
 h1{
     font-weight: bold;
     color: #CF2E75;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 section{
@@ -21,34 +35,45 @@ section{
 }
 
 main{
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-inline: 10%;
 }
 
 .card{
     background-color: #0F0E17;
-    width: calc(33.33% - 20px);
-    /* width: calc((100% / 3) - 30px); */
+    /* width: calc(33.33% - 20px); */
+    width: calc((100% / 3) - 2%);
     float: left;  
     box-shadow: 3px 3px 3px 3px lightgrey;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    position: relative;
+    margin-inline: 1%;
+    margin-block: 1%;
+
+    /* margin-right: 20px;
+    margin-bottom: 20px; */
+    /* overflow: hidden; */
+    /* position: relative; */
 }
 .info{
-    position: absolute;
-    top: 50%;
+    /* position: absolute; */
+    /* top: 50%;
     left: 50%;
     transform: translate(-25%, -60%);
     text-align: justify;
     width: calc(100% - 20px); 
-    padding: 10px; 
+    padding: 10px;  */
+    float: left;
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 4%;
 }
 img{
     float: left;
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
+    display: block;
+    max-height: 100px;
+    width: auto;
     
 }
 .name{
@@ -63,8 +88,4 @@ img{
     color: #8EC6EF;
 }
 
-.clearfix::after{
-	content:"";
-	display: table;
-	clear: both;
-}
+
